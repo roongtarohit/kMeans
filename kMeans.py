@@ -43,7 +43,7 @@ class kMeans:
             #print("ITERATION ------------ ",i)
             center=()
             maximum=float('-inf')
-            for p in range(30):
+            for p in range(len(self.dataPoints)):
                 x = self.dataPoints[p][0]
                 y = self.dataPoints[p][1]
                 #print("P:   ",x,y)
